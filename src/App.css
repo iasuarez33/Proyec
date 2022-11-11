@@ -1,0 +1,86 @@
+/***Estolos del formulario/
+*{
+
+  font-family: helvetica;
+}
+/*******************DEFAULL***************/
+/**Color */
+.blue{
+  color: #10105e;
+}
+.grey{
+  color: #646161;
+}
+/***TEXTO****/
+.text{
+  text-align: center;
+}
+.bold{
+  font-weight: bold;
+}
+.radius-boton{border-radius: 0px 0px 7px 7px;}
+/*************************************/
+/******navbar****/
+.navbar{
+  background:#10105e;
+  color: #fff;
+  padding: 6px;
+  box-shadow: 5px 5px 15px #0d0d3e;
+}
+/******************/
+.box{
+  width: 50%;
+  margin: 8px;
+  padding: 5px;
+  margin: 0 auto;
+}
+.imagen{
+  width:70%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px dotted grey;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}.imagen > img{
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+/*****card***/
+.card{
+  width: 70%;
+  color: #10105e;
+  padding: 5px;
+  margin: 0 auto;
+  
+}
+.subcard{
+  color: #fff;
+  background: #10105e;
+  padding: 7px;
+  border-radius: 7px 7px 0px 0px;
+}
+.cont{
+  padding: 5px;
+  border: 1px solid #646161;
+  border-top: 0px;
+  height: 7vh;
+}
+/*****BUTON*/
+.next{
+  background: #10105e;
+  color: #fff;
+  padding: 7px;
+  border: 0;
+  border-radius: 5px;
+  width: 180px;
+  font-size: 17px;
+}.next:hover{
+  background: #08089579;
+  cursor: pointer;
+}
+.check{
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
